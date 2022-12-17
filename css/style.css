@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
+}
+.top-top{
+    z-index: 1;
+}
+li a{
+    font-size: 16px;
+}
+.nav-link, .dropdown-item{
+    color: #ef6969;
+}
+nav{
+    background-color: #eeeeef;
+}
+.text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ef6969;
+}
+.bttn{
+    background-color: #a1b8d8;
+    color: #fff;
+}
+.btn::after{
+    outline-color: #ef6969 !important;
+}
+.caro img{
+    height: 75vh;
+    width: 70%;
+}
+.sec{
+    
+}
+.cicrcle{
+    width: 15vw;
+    height: 27vh;
+}
+.cicrcle:hover{
+    box-shadow: 2px 3px 5px rgb(208, 208, 208), 
+    2px 4px 5px rgb(223, 223, 223);
+    border: none;
+}
+div i{
+    color: #ef6969;
+}
+.btn1{
+    color: #ef6969;
+    background-color: #fdd6d6;
+}
+.btn1:hover{
+    box-shadow: 2px 3px 4px rgb(208, 208, 208), 
+    2px 4px 5px rgb(223, 223, 223);
+    transition: .3s ease-in;
+}
+.btn2{
+    color: #ef6969;
+    background-color: #fdd6d6;
+}
+.btn2:hover{
+    font-weight: bolder;
+    background-color: #ffeded;
+    transition: .3s ease-in;
+}
+.job-hero{
+    background-color: #fff9f9;
+}
+.job{
+    width: 23vw;
+    height: 23vh;
+}
+.job:hover{
+    border-left: 5px solid #ef6969;
+    transition: .2s ease-in;
+}
+.work{
+        width: 23vw;
+        height: 25vh;
+}
+.subscribe{
+    background-color: #fff9f9;
+}
+input[type=text]{
+    width: 350px;
+}
+.logo{
+    width: 17%;
+}
+.job-sec span{
+    color: #ef6969;
+}
+.job-sec{
+    width: 23vw;
+    height: 13vh;
+}
+.quicklink a{
+    color: #ef6969;
+}
+.otherlink a{
+    color: #ef6969;
+}
+footer{
+    background-color: #2c2c2c;
+}
+.icon{
+    /* position: sticky; */
+    bottom: 5%;
+    z-index: 10;
+    width: 7vh;
+}
+@media (max-width: 575.98px){
+    .banner-hero img{
+        width: 27.777vw;
+        height: 42.682vh;
+    }
+    .sec{
+        flex-direction: column;
+        margin-left: 50px;
+        width: 280px;
+    }
+    .cicrcle{
+        width: 50vw;
+        height: 25vh;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .job{
+        margin: auto;
+        width: 75vw;
+        height: 22vh;
+        margin-bottom: 25px;
+    }
+    .hero2{
+        flex-direction: column;
+    }
+    .work{
+        margin: auto;
+        width: 75vw;
+        height: 24vh;
+        margin-bottom: 25px;
+    }
+    .subs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    input[type=text]{
+        margin-bottom: 15px;
+    }
+    .footer-hero{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .sociallink{
+        margin-bottom: 35px;
+    }
+    .otherlink{
+        margin-bottom: 30px;
+    }
+    .quicklink{
+        margin-bottom: 30px;
+    }
+    .job-sec{
+        width: 73vw;
+        height: 13vh;
+        margin: auto;
+    }
+}
+

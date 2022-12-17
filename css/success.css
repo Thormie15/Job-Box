@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+li a{
+    font-size: 16px;
+}
+.nav-link, .dropdown-item{
+    color: #ef6969;
+}
+nav{
+    background-color: #eeeeef;
+}
+.text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ef6969;
+}
+label{
+    font-weight: bolder;
+}
+h3{
+    font-weight: bold;
+}
+/* .text_container{
+    margin-top: 60px;
+} */
+.bttn{
+    background-color: #a1b8d8;
+    color: #fff;
+    border: none;
+    width: 230px;
+}
+.bttn:hover{
+    background-color: #6d84a5;
+}
+.box{
+    width: 30vw;
+    height: 30vh;
+}
+.logo{
+    width: 17%;
+}
+i{
+    color: #ef6969;
+}
+.job-sec span{
+    color: #ef6969;
+}
+.job-sec{
+    width: 15vw;
+    height: 13vh;
+}
+.quicklink a{
+    color: #ef6969;
+}
+.otherlink a{
+    color: #ef6969;
+}
+footer{
+    background-color: #2c2c2c;
+}
+
+@media (max-width: 575.98px) {
+    .box{
+        width: 75vw;
+        height: 35vh;
+    }
+    .footer-hero{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .sociallink{
+        margin-bottom: 35px;
+    }
+    .otherlink{
+        margin-bottom: 30px;
+    }
+    .quicklink{
+        margin-bottom: 30px;
+    }
+    .job-sec{
+        width: 73vw;
+        height: 13vh;
+        margin: auto;
+    }
+
+}
